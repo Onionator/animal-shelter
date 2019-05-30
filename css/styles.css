@@ -27,3 +27,13 @@ h2 {
   font-size: 60px;
   font-family: monospace;
 }
+
+@media screen and (max-width: 600px) {
+  body {
+    background-color: black;
+    color: white;
+  }
+  div {
+    color: black;
+  }
+}
