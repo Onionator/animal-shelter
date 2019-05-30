@@ -5,12 +5,16 @@ img {
   font-style: italic;
   font-weight: bold;
 }
-.boxes {
-  float:left;
-  width: 32%;
+ {
   padding: 10px;
   border: 3px solid black;
-  height: 600px;
+  margin: 5px;
+  background-color: darksalmon;
+}
+.boxes {
+  padding: 10px;
+  border: 3px solid black;
+  height: 450px;
   margin: 5px;
   background-color: lightgrey;
 }
@@ -28,8 +32,6 @@ h2 {
   font-size: 60px;
   font-family: cursive;
 }
-
-
 @media screen and (max-width: 600px) {
   body {
     background-color: black;
@@ -38,7 +40,4 @@ h2 {
   div {
     color: black;
   }
-}
-.me {
-  clear: none; float: left;
 }
